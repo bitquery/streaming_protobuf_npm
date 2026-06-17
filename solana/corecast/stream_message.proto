@@ -16,6 +16,7 @@ message TransactionAttributes {
 
 message BlockAttributes {
   uint64 Slot = 1;
+  uint64 Timestamp = 2;
 }
 
 message DexTradeStreamMessage {
