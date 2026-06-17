@@ -1,10 +1,10 @@
 syntax = "proto3";
 package solana_corecast;
 
-import "solana/token_block_message.proto";
-import "solana/parsed_idl_block_message.proto";
-import "solana/block_message.proto";
-import "solana/dex_block_message.proto";
+import "../solana/token_block_message.proto";
+import "../solana/parsed_idl_block_message.proto";
+import "../solana/block_message.proto";
+import "../solana/dex_block_message.proto";
 
 message TransactionAttributes {
   uint32 Index = 1;
