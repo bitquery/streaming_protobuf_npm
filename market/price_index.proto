@@ -1,8 +1,8 @@
 syntax = "proto3";
 package marketdata_messages;
 
-import "market/marketdata.proto";
-import "market/pool.proto";
+import "../market/marketdata.proto";
+import "../market/pool.proto";
 
 message Currency {
   string Id = 1;
